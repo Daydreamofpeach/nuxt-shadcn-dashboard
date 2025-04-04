@@ -7,7 +7,9 @@ const router = useRouter()
 </script>
 
 <template>
-  <div class="h-svh">
+  <div
+    class="bg-[#fff] h-svh dark:bg-[#141c26]"
+  >
     <div class="m-auto h-full w-full flex flex-col items-center justify-center gap-2">
       <h1 class="text-[7rem] font-bold leading-tight">
         401

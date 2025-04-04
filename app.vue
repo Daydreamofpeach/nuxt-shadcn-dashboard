@@ -46,7 +46,9 @@ const router = useRouter()
 
 defineShortcuts({
   'G-H': () => router.push('/'),
-  'G-E': () => router.push('/email'),
+  'G-E': () => router.push('/expenses'),
+  'K-F': () => router.push('/tasks'),
+  'G-J': () => router.push('/qr'),
 })
 
 const useIdFunction = () => useId()

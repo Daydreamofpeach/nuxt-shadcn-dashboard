@@ -41,6 +41,10 @@ export default defineNuxtConfig({
       './lib',
     ],
   },
+  devServer: {
+    port: 3001, // Change to your desired port
+    host: 'localhost', // Optionally change the host
+  },
 
   compatibilityDate: '2024-12-14',
 })

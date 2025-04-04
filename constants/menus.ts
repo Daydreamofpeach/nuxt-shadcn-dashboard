@@ -10,15 +10,24 @@ export const navMenu: NavMenu[] = [
         link: '/',
       },
       {
-        title: 'Email',
-        icon: 'i-lucide-mail',
-        link: '/email',
+        title: 'Builder',
+        icon: 'i-lucide-hammer',
+        link: '/builder',
+      },
+      {
+        title: 'Expenses',
+        icon: 'i-lucide-dollar-sign',
+        link: '/expenses',
       },
       {
         title: 'Tasks',
         icon: 'i-lucide-calendar-check-2',
         link: '/tasks',
-        new: true,
+      },
+      {
+        title: 'QR-Generator',
+        icon: 'i-lucide-qr-code',
+        link: '/qr',
       },
     ],
   },
@@ -85,7 +94,6 @@ export const navMenu: NavMenu[] = [
       {
         title: 'Settings',
         icon: 'i-lucide-settings',
-        new: true,
         children: [
           {
             title: 'Profile',
@@ -194,6 +202,11 @@ export const navMenu: NavMenu[] = [
             link: '/components/combobox',
           },
           {
+            title: 'Component Builder',
+            icon: 'i-lucide-circle',
+            link: '/components/ComponentBuilder',
+          },
+          {
             title: 'Command',
             icon: 'i-lucide-circle',
             link: '/components/command',
@@ -222,6 +235,11 @@ export const navMenu: NavMenu[] = [
             title: 'Form',
             icon: 'i-lucide-circle',
             link: '/components/form',
+          },
+          {
+            title: 'Gantt Chart',
+            icon: 'i-lucide-circle',
+            link: '/components/GanttTimeline',
           },
           {
             title: 'Hover Card',
@@ -274,9 +292,14 @@ export const navMenu: NavMenu[] = [
             link: '/components/progress',
           },
           {
-            title: 'Radio Group',
+            title: 'Progress',
             icon: 'i-lucide-circle',
-            link: '/components/radio-group',
+            link: '/components/progress',
+          },
+          {
+            title: 'Quote',
+            icon: 'i-lucide-circle',
+            link: '/components/quote-calculator',
           },
           {
             title: 'Range Calendar',
@@ -327,7 +350,6 @@ export const navMenu: NavMenu[] = [
             title: 'Stepper',
             icon: 'i-lucide-circle',
             link: '/components/stepper',
-            new: true,
           },
           {
             title: 'Switch',
