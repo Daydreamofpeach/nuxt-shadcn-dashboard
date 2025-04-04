@@ -21,7 +21,6 @@ export default defineConfig({
         if (!match)
           return matcher
         return {
-          // slice `hover:` prefix and passed to the next variants and rules
           matcher: matcher.substring(match[0].length),
           selector: s => `${s}:nth-child(${match[1]})`,
         }
@@ -95,6 +94,17 @@ export default defineConfig({
           --sidebar-accent-foreground: 240 4.8% 95.9%;
           --sidebar-border: 240 3.7% 15.9%;
           --sidebar-ring: 217.2 91.2% 59.8%;
+        }
+
+        /* Hide scrollbar for Chrome, Safari and Opera */
+        ::-webkit-scrollbar {
+          display: none;
+        }
+
+        /* Hide scrollbar for IE, Edge and Firefox */
+        * {
+          -ms-overflow-style: none;  /* IE and Edge */
+          scrollbar-width: none;  /* Firefox */
         }
       `,
     },

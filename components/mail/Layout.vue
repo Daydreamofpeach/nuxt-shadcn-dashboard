@@ -192,7 +192,7 @@ watch(() => defaultCollapse.value, () => {
               </TabsList>
             </div>
             <Separator />
-            <div class="bg-background/95 p-4 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+            <div class="bg-white p-4 backdrop-blur dark:bg-[#141c26] supports-[backdrop-filter]:bg-background/60">
               <form>
                 <div class="relative">
                   <Search class="absolute left-2 top-2.5 size-4 text-muted-foreground" />

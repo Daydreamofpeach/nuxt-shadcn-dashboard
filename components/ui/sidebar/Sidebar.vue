@@ -58,7 +58,7 @@ const { isMobile, state, openMobile, setOpenMobile } = useSidebar()
     <!-- This is what handles the sidebar gap on desktop  -->
     <div
       :class="cn(
-        'duration-200 relative h-svh w-[--sidebar-width] bg-transparent transition-[width] ease-linear',
+        'duration-200 relative dark:bg-[#141c26] bg-white h-svh w-[--sidebar-width] bg-transparent transition-[width] ease-linear',
         'group-data-[collapsible=offcanvas]:w-0',
         'group-data-[side=right]:rotate-180',
         variant === 'floating' || variant === 'inset'
